@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      style="
+        margin-top: 2em;
+        margin-left: 4em;
+        font-size: 1.25em;
+        letter-spacing: 0.25em;
+        height: 1.25em;
+      "
+      name="header"
+    >
+      <h1>Sort Visualizer</h1>
+    </div>
+
+    <div
+      style="
+        margin-left: 4em;
+        margin-top: 2em;
+        background-color: #1c5150;
+        width: 60%;
+        height: 1%;
+        border-radius: 1em;
+      "
+    ></div>
+
+    <button id="reset" class="resetbtn">Reset</button>
+
+    <div class="dropdown">
+      <button id="dropbtn" class="dropbtn">Sort Type</button>
+      <div class="dropdown-content">
+        <a id="option1" href="#">Selection Sort</a>
+        <a id="option2" href="#">Bubble Sort</a>
+        <a id="option3" href="#">Quick Sort</a>
+        <a id="option4" href="#">Insertion Sort</a>
+
+      </div>
+    </div>
+
+    <canvas
+      width="1100"
+      height="500"
+      class="heeheeheehaw"
+      name="canvas"
+      id="canvas"
+    >
+    </canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
